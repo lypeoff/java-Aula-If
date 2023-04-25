@@ -14,7 +14,7 @@ public class sub_main{
 	
 			double conta = 50.0;
 			if (minutos > 100) {
-				conta += (minutos - 100) *2;
+				conta = contas + (minutos - 100) *2;
 			}
 			System.out.printf("valor da conta = R$ %.2f%n", conta);
 	
